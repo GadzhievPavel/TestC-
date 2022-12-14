@@ -12,6 +12,7 @@ struct Test
 int main()
 {
 	Test d[3] = { { '#',12.74 },{'q',45},{'o',7} };
+	/////////////////////
 	cout << &d<<endl;
 	cout << sizeof(Test) << " " << sizeof(d) << "\n\n";
 	return 0;
